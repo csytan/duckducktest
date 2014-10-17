@@ -2,6 +2,12 @@
 
 Testing framework for Spice Instant Answers
 
+## Running
+
+`$npm install underscore`
+`$phantomjs --ssl-protocol=any phantom.js`
+
+
 ## Objectives
 
 - Tests should cover the most common breakage points
@@ -14,6 +20,12 @@ Testing framework for Spice Instant Answers
     - Find out why they are broken
     - Could we have written a test for this?
 2. Learn Casper
+
+
+## Problems
+- IAs that interact in strange ways
+- Shared classes
+- JSON rate-limits
 
 
 ## What can we test?
