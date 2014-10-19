@@ -14,15 +14,10 @@ DuckDuckTest.init = function() {
     };
     
     // On window loaded
-    //window.onload = function() {
-    //    console.log('loaded!')
-    //    self.loaded = true;
-    //};
-    
-    window.setTimeout(function() {
+    window.onload = function() {
+        console.log('loaded!')
         self.loaded = true;
-    }, 5000);
-    
+    };
 };
 
 DuckDuckTest.describeIA = function() {
