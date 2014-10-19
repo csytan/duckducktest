@@ -4,12 +4,16 @@ DuckDuckGo Spice Instant Answer Tester.
 
 ## Getting started
 
-**Install and run ChromeDriver**
+Install and run ChromeDriver:
+
 https://code.google.com/p/selenium/wiki/ChromeDriver
 
-`$./chromedriver --url-base=/wd/hub`
-`$npm install wd`
-`$node main.js`
+Run Crawler:
+```
+$./chromedriver --url-base=/wd/hub
+$npm install wd
+$node main.js
+```
 
 
 ## Features
