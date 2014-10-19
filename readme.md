@@ -1,25 +1,28 @@
 # DuckDuckTest
 
-Testing framework for Spice Instant Answers
+DuckDuckGo Spice Instant Answer Tester.
 
-## Running
+## Getting started
 
-`$npm install underscore`
-`$phantomjs --ssl-protocol=any phantom.js`
+**Install and run ChromeDriver**
+https://code.google.com/p/selenium/wiki/ChromeDriver
+
+`$./chromedriver --url-base=/wd/hub`
+`$npm install wd`
+`$node main.js`
 
 
-## Objectives
+## Features
 
-- Tests should cover the most common breakage points
-- Tests must be simple to write and maintain
-- Minimize false positives
-
+- Detects JS errors
+- Checks for existance ZCI dom element
+- Check for JSON API changes
+- Simple event testing
 
 ## Short term goals
 1. Manually look for broken spice IAs @ https://duck.co/ia
     - Find out why they are broken
     - Could we have written a test for this?
-2. Learn Casper
 
 
 ## Problems
@@ -40,15 +43,13 @@ Testing framework for Spice Instant Answers
 - Touch events being triggered
 
 
-## Ideas
-- Contact developers when their spice fails
-- Even more useful if spices could be coded purely in browser
-- Can tests be run periodically in the background as an alternative to running fast?
-
-
 ## Questions
 - How does this fit in with Travis?
 
 ## Useful Links
-http://docs.casperjs.org/en/1.1-beta3/modules/index.html
+https://github.com/admc/wd
+https://code.google.com/p/selenium/wiki/JsonWireProtocol
+
+
+
 
