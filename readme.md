@@ -8,10 +8,12 @@ Install and run ChromeDriver:
 
 https://code.google.com/p/selenium/wiki/ChromeDriver
 
-`$./chromedriver --verbose --url-base=/wd/hub`
-`$npm install wd`
-`$node main.js`
-
+Then run:
+```
+$./chromedriver --verbose --url-base=/wd/hub
+$npm install wd
+$node main.js
+```
 
 ## Features
 
