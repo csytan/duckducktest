@@ -6,7 +6,7 @@ var asserters = wd.asserters;
 var browser = wd.promiseChainRemote('localhost', 9515);
 
 browser.on('status', function(info) {
-  console.log(info);
+    console.log(info);
 });
 
 browser = browser.init({browserName:'chrome'});
@@ -28,7 +28,7 @@ https.request('https://duck.co/ia/json', function(response) {
 function crawl(ias) {
     var spices = [];
     ias.forEach(function(ia) {
-        if (ia.repo == 'spice' && ia.example_query) {
+        if (ia.example_query) {
             spices.push(ia);
         }
     });

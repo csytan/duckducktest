@@ -7,7 +7,7 @@ DuckDuckGo Spice Instant Answer Tester.
 **Install and run ChromeDriver**
 https://code.google.com/p/selenium/wiki/ChromeDriver
 
-`$./chromedriver --url-base=/wd/hub`
+`$./chromedriver --verbose --url-base=/wd/hub`
 `$npm install wd`
 `$node main.js`
 
@@ -47,8 +47,8 @@ https://code.google.com/p/selenium/wiki/ChromeDriver
 - How does this fit in with Travis?
 
 ## Useful Links
-https://github.com/admc/wd
-https://code.google.com/p/selenium/wiki/JsonWireProtocol
+- https://github.com/admc/wd
+- https://code.google.com/p/selenium/wiki/JsonWireProtocol
 
 
 
