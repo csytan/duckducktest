@@ -8,13 +8,9 @@ var browser = wd.promiseChainRemote('localhost', 9515);
 browser.on('status', function(info) {
     console.log(info);
 });
-
 browser = browser.init({browserName:'chrome'});
     
 var injectjs = fs.readFileSync('inject.js', {encoding: 'utf8'});
-
-//https://github.com/admc/wd
-
 
 https.request('https://duck.co/ia/json', function(response) {
     var body = '';
@@ -39,24 +35,20 @@ function crawl(ias) {
 function crawlPages(spices) {
     var spice = spices.pop();
     if (!spice) return;
+    
     var url = 'https://bttf.duckduckgo.com/?q=' + 
         spice.example_query.replace(/ /g, '+');
+        
     console.log('Visiting ' + spice.name);
     console.log(url);
+    
     browser
         .get(url)
         .execute(injectjs)
         .waitFor(asserters.jsCondition('window.DuckDuckTest && window.DuckDuckTest.loaded'), 60000)
-        .execute('return DuckDuckTest.describeIA()', function(err, result) {
-            if (!result) {
-                console.log('Zci not found!');
-            }
-        })
-        .execute('return DuckDuckTest.errors', function(err, result) {
-            if (result.length) {
-                console.log('Errors: ', result);
-            }
-            console.log('-------------------------------------------');
+        .execute('return DuckDuckTest.run()', function(err, result) {
+            console.log(result);
+            console.log('-----------------------------------------');
             crawlPages(spices);
         });
 }
