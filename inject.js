@@ -20,9 +20,23 @@ DuckDuckTest.init = function() {
     };
 };
 
-DuckDuckTest.describeIA = function() {
+DuckDuckTest.run = function() {
+    // Page Timing
+    // https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming
+    var timing = window.performance.timing;
+    var now = new Date().getTime();
+    var loadTime = now - timing.navigationStart;
+    var connTime = timing.responseEnd - timing.requestStart
+    
+    // ZCI info
     var zci = $('.zci.is-active');
-    return zci[0] ? this.describeNode(zci[0]) : null;
+    var zciInfo = zci[0] ? this.describeNode(zci[0]) : null;
+    
+    return {
+        'Page load time': loadTime,
+        'Connection time': connTime,
+        'Errors': this.errors
+    }
 };
 
 DuckDuckTest.describeNode = function(node, level) {
