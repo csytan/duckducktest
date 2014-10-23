@@ -10,27 +10,31 @@ DuckDuckTest.init = function() {
     var self = this;
     // Capture errors
     window.onerror = function(message, file, line) {
-        self.errors.push([message, file, line]);
+        self.errors.push(message + '\n' + file + ':' + line);
     };
     
-    // On window loaded
-    window.onload = function() {
-        console.log('loaded!')
-        self.loaded = true;
-    };
+    // Poll until ZCI is loaded (visible)
+    var start = new Date().getTime();
+    var timer = setInterval(function() {
+        var elapsed = (new Date().getTime()) - start;
+        if ($('.zci:visible').length || elapsed > 5000) {
+            self.loaded = true;
+            clearTimeout(timer);
+        }
+    }, 100);
 };
 
 DuckDuckTest.run = function() {
     // Page Timing
     // https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming
     var timing = window.performance.timing;
-    var now = new Date().getTime();
-    var loadTime = now - timing.navigationStart;
-    var connTime = timing.responseEnd - timing.requestStart
+    var loadTime = (new Date().getTime()) - timing.navigationStart;
+    var connTime = timing.responseEnd - timing.requestStart;
     
-    // ZCI info
-    var zci = $('.zci.is-active');
-    var zciInfo = zci[0] ? this.describeNode(zci[0]) : null;
+    // Test if ZCI is visible
+    if ($('.zci:visible').length == 0) {
+        this.errors.push('ZCI not displayed!');
+    }
     
     return {
         'Page load time': loadTime,
