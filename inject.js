@@ -36,6 +36,11 @@ DuckDuckTest.run = function() {
         this.errors.push('ZCI not displayed!');
     }
     
+    // TODO: Test that images loaded:
+    // http://stackoverflow.com/questions/1977871/check-if-an-image-is-loaded-no-errors-in-javascript
+    
+    // TODO: Test for broken links
+    
     return {
         'Page load time': loadTime,
         'Connection time': connTime,
