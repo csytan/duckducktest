@@ -9,9 +9,9 @@ Install and run ChromeDriver:
 https://code.google.com/p/selenium/wiki/ChromeDriver
 
 ```
-$./chromedriver --verbose --url-base=/wd/hub
-$npm install wd
-$node main.js
+$ ./chromedriver --verbose --url-base=/wd/hub
+$ npm install wd
+$ node main.js
 ```
 
 ## Features
@@ -20,11 +20,6 @@ $node main.js
 - Checks for existance ZCI dom element
 - Check for JSON API changes
 - Simple event testing
-
-## Short term goals
-1. Manually look for broken spice IAs @ https://duck.co/ia
-    - Find out why they are broken
-    - Could we have written a test for this?
 
 
 ## Problems
