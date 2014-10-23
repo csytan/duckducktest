@@ -1,0 +1,1650 @@
+DDG::Longtail::WebApplications
+https://bttf.duckduckgo.com/?q=delete+my+facebook+account
+
+Driving the web on session: 62594fdcdf3b605f0dc7448e205f9e72
+
+Connection time: 31
+Errors: ZCI not displayed!
+Page load time: 6290
+-----------------------------------------
+
+DDG::Longtail::StackOverflow
+https://bttf.duckduckgo.com/?q=apache+nginx
+Connection time: 30
+Errors: 
+Page load time: 1046
+-----------------------------------------
+
+DDG::Longtail::GeographicInformationSystems
+https://bttf.duckduckgo.com/?q=esri+data+formats
+Connection time: 27
+Errors: ZCI not displayed!
+Page load time: 5245
+-----------------------------------------
+
+DDG::Longtail::AskUbuntu
+https://bttf.duckduckgo.com/?q=battery+life+ubuntu+kubuntu
+Connection time: 30
+Errors: 
+Page load time: 809
+-----------------------------------------
+
+DDG::Fathead::RedisCommands
+https://bttf.duckduckgo.com/?q=redis+rpush
+Connection time: 27
+Errors: 
+Page load time: 589
+-----------------------------------------
+
+DDG::Fathead::HelloWorld
+https://bttf.duckduckgo.com/?q=hello+world+perl
+Connection time: 30
+Errors: Uncaught TypeError: Cannot set property 'meta' of undefined
+https://bttf.duckduckgo.com/d1698.js:70
+Page load time: 825
+-----------------------------------------
+
+DDG::Fathead::CssRef
+https://bttf.duckduckgo.com/?q=text-align+css
+Connection time: 32
+Errors: 
+Page load time: 945
+-----------------------------------------
+
+DDG::Fathead::ArchPkgs
+https://bttf.duckduckgo.com/?q=arch+awesome
+Connection time: 30
+Errors: 
+Page load time: 639
+-----------------------------------------
+
+DDG::Spice::Lastfm::Artist
+https://bttf.duckduckgo.com/?q=ben+folds+five+artist
+Connection time: 32
+Errors: 
+Page load time: 429
+-----------------------------------------
+
+DDG::Spice::WordMap
+https://bttf.duckduckgo.com/?q=similar+to+sound
+Connection time: 31
+Errors: 
+Page load time: 745
+-----------------------------------------
+
+DDG::Spice::UrbanDictionary
+https://bttf.duckduckgo.com/?q=urban+dictionary+ROTFL
+Connection time: 33
+Errors: 
+Page load time: 1256
+-----------------------------------------
+
+DDG::Spice::Thesaurus
+https://bttf.duckduckgo.com/?q=synonyms+for+person
+Connection time: 30
+Errors: 
+Page load time: 817
+-----------------------------------------
+
+DDG::Spice::Steam::Specials
+https://bttf.duckduckgo.com/?q=steam+specials
+Connection time: 29
+Errors: 
+Page load time: 1044
+-----------------------------------------
+
+DDG::Spice::SoundCloud
+https://bttf.duckduckgo.com/?q=soundcloud+ray+bradbury
+Connection time: 635
+Errors: 
+Page load time: 1526
+-----------------------------------------
+
+DDG::Spice::SEPTA
+https://bttf.duckduckgo.com/?q=next+train+from+Villanova+to+Paoli
+Connection time: 36
+Errors: 
+Page load time: 388
+-----------------------------------------
+
+DDG::Spice::RubyGems
+https://bttf.duckduckgo.com/?q=rubygems+cucumber
+Connection time: 29
+Errors: 
+Page load time: 1225
+-----------------------------------------
+
+DDG::Spice::Plos
+https://bttf.duckduckgo.com/?q=plos+dinosaurs
+Connection time: 28
+Errors: 
+Page load time: 605
+-----------------------------------------
+
+DDG::Spice::Octopart
+https://bttf.duckduckgo.com/?q=atmega+datasheet
+Connection time: 28
+Errors: 
+Page load time: 422
+-----------------------------------------
+
+DDG::Spice::Npm
+https://bttf.duckduckgo.com/?q=npm+underscore
+Connection time: 28
+Errors: 
+Page load time: 833
+-----------------------------------------
+
+DDG::Spice::MassOnTime
+https://bttf.duckduckgo.com/?q=Catholic+masses+near+Pittsburgh
+Connection time: 34
+Errors: 
+Page load time: 1261
+-----------------------------------------
+
+DDG::Spice::ISBN
+https://bttf.duckduckgo.com/?q=isbn+0330287001
+Connection time: 29
+Errors: 
+Page load time: 826
+-----------------------------------------
+
+DDG::Spice::HackerNews
+https://bttf.duckduckgo.com/?q=hn+postgresql
+Connection time: 29
+Errors: 
+Page load time: 626
+-----------------------------------------
+
+DDG::Spice::Hackage::Packages
+https://bttf.duckduckgo.com/?q=hackage+containers
+Connection time: 28
+Errors: 
+Page load time: 1244
+-----------------------------------------
+
+DDG::Spice::Gravatar
+https://bttf.duckduckgo.com/?q=gravatar+gravatar@duckduckgo.com
+Connection time: 40
+Errors: 
+Page load time: 415
+-----------------------------------------
+
+DDG::Spice::GooglePlus
+https://bttf.duckduckgo.com/?q=google++duckduckgo
+Connection time: 36
+Errors: ZCI not displayed!
+Page load time: 5258
+-----------------------------------------
+
+DDG::Spice::GithubJobs
+https://bttf.duckduckgo.com/?q=javascript+jobs
+Connection time: 45
+Errors: 
+Page load time: 469
+-----------------------------------------
+
+DDG::Spice::DuckSay
+https://bttf.duckduckgo.com/?q=ducksay
+Connection time: 39
+Errors: 
+Page load time: 1248
+-----------------------------------------
+
+DDG::Spice::Drinks
+https://bttf.duckduckgo.com/?q=how+to+mix+a+tom+collins
+Connection time: 38
+Errors: 
+Page load time: 860
+-----------------------------------------
+
+DDG::Spice::Dictionary::Definition
+https://bttf.duckduckgo.com/?q=define+inundate
+Connection time: 31
+Errors: 
+Page load time: 607
+-----------------------------------------
+
+DDG::Spice::DetectLang
+https://bttf.duckduckgo.com/?q=detect+language+こんにちは
+Connection time: 41
+Errors: 
+Page load time: 465
+-----------------------------------------
+
+DDG::Spice::Congress
+https://bttf.duckduckgo.com/?q=new+york+senators
+Connection time: 34
+Errors: 
+Page load time: 612
+-----------------------------------------
+
+DDG::Spice::BrainyQuote
+https://bttf.duckduckgo.com/?q=John+Kennedy+quotes
+Connection time: 32
+Errors: 
+Page load time: 379
+-----------------------------------------
+
+DDG::Spice::BBC
+https://bttf.duckduckgo.com/?q=what's+on+bbc
+Connection time: 54
+Errors: 
+Page load time: 701
+-----------------------------------------
+
+DDG::Spice::Whois
+https://bttf.duckduckgo.com/?q=whois+duckduckgo.com
+Connection time: 30
+Errors: 
+Page load time: 388
+-----------------------------------------
+
+DDG::Spice::Twitter
+https://bttf.duckduckgo.com/?q=@duckduckgo
+Connection time: 29
+Errors: 
+Page load time: 445
+-----------------------------------------
+
+DDG::Spice::Airlines
+https://bttf.duckduckgo.com/?q=AA+102
+Connection time: 29
+Errors: 
+Page load time: 967
+-----------------------------------------
+
+DDG::Goodie::Xor
+https://bttf.duckduckgo.com/?q=4+xor+5
+Connection time: 179
+Errors: 
+Page load time: 537
+-----------------------------------------
+
+DDG::Goodie::WhereAmI
+https://bttf.duckduckgo.com/?q=Where+am+I?
+Connection time: 29
+Errors: 
+Page load time: 397
+-----------------------------------------
+
+DDG::Goodie::URLEncode
+https://bttf.duckduckgo.com/?q=url+encode+https://duckduckgo.com/
+Connection time: 30
+Errors: 
+Page load time: 398
+-----------------------------------------
+
+DDG::Goodie::Uppercase
+https://bttf.duckduckgo.com/?q=uppercase+this
+Connection time: 35
+Errors: 
+Page load time: 407
+-----------------------------------------
+
+DDG::Goodie::UnicodeFuzzySearch
+https://bttf.duckduckgo.com/?q=unicode+black+heart
+Connection time: 367
+Errors: 
+Page load time: 1571
+-----------------------------------------
+
+DDG::Goodie::UltimateAnswer
+https://bttf.duckduckgo.com/?q=what+is+the+answer+to+the+ultimate+question+of+life+the+universe+and+everything
+Connection time: 158
+Errors: 
+Page load time: 528
+-----------------------------------------
+
+DDG::Goodie::TmuxCheatSheet
+https://bttf.duckduckgo.com/?q=tmux+help
+Connection time: 39
+Errors: 
+Page load time: 412
+-----------------------------------------
+
+DDG::Goodie::TitleCase
+https://bttf.duckduckgo.com/?q=titlecase+test
+Connection time: 28
+Errors: 
+Page load time: 381
+-----------------------------------------
+
+DDG::Goodie::Teredo
+https://bttf.duckduckgo.com/?q=teredo+2001:0000:4136:e378:8000:63bf:3fff:fdd2
+Connection time: 36
+Errors: 
+Page load time: 382
+-----------------------------------------
+
+DDG::Goodie::SumOfNaturalNumbers
+https://bttf.duckduckgo.com/?q=sum+1+to+10
+Connection time: 33
+Errors: 
+Page load time: 372
+-----------------------------------------
+
+DDG::Goodie::RubiksCubePatterns
+https://bttf.duckduckgo.com/?q=rcube+stripes
+Connection time: 31
+Errors: 
+Page load time: 376
+-----------------------------------------
+
+DDG::Goodie::Roman
+https://bttf.duckduckgo.com/?q=roman+numeral+MCCCXXXVII
+Connection time: 40
+Errors: 
+Page load time: 432
+-----------------------------------------
+
+DDG::Goodie::RandomName
+https://bttf.duckduckgo.com/?q=random+name
+Connection time: 177
+Errors: 
+Page load time: 531
+-----------------------------------------
+
+DDG::Goodie::Rafl
+https://bttf.duckduckgo.com/?q=rafl+is+everywhere
+Connection time: 34
+Errors: 
+Page load time: 434
+-----------------------------------------
+
+DDG::Goodie::PrimeFactors
+https://bttf.duckduckgo.com/?q=prime+factors+of+30
+Connection time: 39
+Errors: 
+Page load time: 434
+-----------------------------------------
+
+DDG::Goodie::PigLatin
+https://bttf.duckduckgo.com/?q=pig+latin+i+love+duckduckgo
+Connection time: 33
+Errors: 
+Page load time: 394
+-----------------------------------------
+
+DDG::Goodie::Perimeter
+https://bttf.duckduckgo.com/?q=circumference+circle+1
+Connection time: 32
+Errors: 
+Page load time: 375
+-----------------------------------------
+
+DDG::Goodie::ParseCron
+https://bttf.duckduckgo.com/?q=crontab+*+*/3+*+*+*
+Connection time: 36
+Errors: 
+Page load time: 391
+-----------------------------------------
+
+DDG::Goodie::NLetterWords
+https://bttf.duckduckgo.com/?q=5+letter+words
+Connection time: 128
+Errors: 
+Page load time: 476
+-----------------------------------------
+
+DDG::Goodie::Morse
+https://bttf.duckduckgo.com/?q=morse+...+---+...
+Connection time: 33
+Errors: 
+Page load time: 376
+-----------------------------------------
+
+DDG::Goodie::Loan
+https://bttf.duckduckgo.com/?q=loan+$500000+at+4.5%+with+20%+down
+Connection time: 39
+Errors: 
+Page load time: 398
+-----------------------------------------
+
+DDG::Goodie::HTMLEntitiesEncode
+https://bttf.duckduckgo.com/?q=html+em+dash
+Connection time: 121
+Errors: 
+Page load time: 473
+-----------------------------------------
+
+DDG::Goodie::HTMLEntitiesDecode
+https://bttf.duckduckgo.com/?q=html+decode+&#33;
+Connection time: 128
+Errors: ZCI not displayed!
+Page load time: 5386
+-----------------------------------------
+
+DDG::Goodie::Hijri
+https://bttf.duckduckgo.com/?q=22/8/2003+to+the+hijri+calendar
+Connection time: 59
+Errors: 
+Page load time: 432
+-----------------------------------------
+
+DDG::Goodie::GUID
+https://bttf.duckduckgo.com/?q=guid
+Connection time: 42
+Errors: 
+Page load time: 629
+-----------------------------------------
+
+DDG::Goodie::GimpCheatSheet
+https://bttf.duckduckgo.com/?q=gimp+help
+Connection time: 33
+Errors: 
+Page load time: 599
+-----------------------------------------
+
+DDG::Goodie::FIGlet
+https://bttf.duckduckgo.com/?q=figlet+DuckDuckGo
+Connection time: 149
+Errors: 
+Page load time: 507
+-----------------------------------------
+
+DDG::Goodie::Fibonacci
+https://bttf.duckduckgo.com/?q=fib+7
+Connection time: 28
+Errors: 
+Page load time: 398
+-----------------------------------------
+
+DDG::Goodie::EmToPx
+https://bttf.duckduckgo.com/?q=10+px+to+em
+Connection time: 84
+Errors: 
+Page load time: 438
+-----------------------------------------
+
+DDG::Goodie::Dice
+https://bttf.duckduckgo.com/?q=throw+dice
+Connection time: 29
+Errors: 
+Page load time: 483
+-----------------------------------------
+
+DDG::Goodie::Dewey
+https://bttf.duckduckgo.com/?q=dewey+644
+Connection time: 29
+Errors: 
+Page load time: 381
+-----------------------------------------
+
+DDG::Goodie::CurrencyIn
+https://bttf.duckduckgo.com/?q=currency+in+australia
+Connection time: 31
+Errors: 
+Page load time: 393
+-----------------------------------------
+
+DDG::Goodie::CryptHashCheck
+https://bttf.duckduckgo.com/?q=hash+624d420035fc9471f6e16766b7132dd6bb34ea62
+Connection time: 39
+Errors: 
+Page load time: 400
+-----------------------------------------
+
+DDG::Goodie::ChineseZodiac
+https://bttf.duckduckgo.com/?q=chinese+zodiac+for+1969
+Connection time: 122
+Errors: 
+Page load time: 558
+-----------------------------------------
+
+DDG::Goodie::CallingCodes
+https://bttf.duckduckgo.com/?q=country+code+55
+Connection time: 29
+Errors: ZCI not displayed!
+Page load time: 5415
+-----------------------------------------
+
+DDG::Goodie::BloodDonor
+https://bttf.duckduckgo.com/?q=donor+O+
+Connection time: 28
+Errors: ZCI not displayed!
+Page load time: 5435
+-----------------------------------------
+
+DDG::Goodie::Base64
+https://bttf.duckduckgo.com/?q=base64+encode+foo
+Connection time: 29
+Errors: 
+Page load time: 407
+-----------------------------------------
+
+DDG::Goodie::Average
+https://bttf.duckduckgo.com/?q=average+12,+45,+78,+1234
+Connection time: 38
+Errors: 
+Page load time: 542
+-----------------------------------------
+
+DDG::Goodie::Anagram
+https://bttf.duckduckgo.com/?q=anagram+of+filter
+Connection time: 149
+Errors: 
+Page load time: 532
+-----------------------------------------
+
+DDG::Goodie::ABC
+https://bttf.duckduckgo.com/?q=choose+yes+or+no
+Connection time: 111
+Errors: 
+Page load time: 487
+-----------------------------------------
+
+DDG::Goodie::USPS
+https://bttf.duckduckgo.com/?q=EA+000+000+000+US
+Connection time: 33
+Errors: 
+Page load time: 398
+-----------------------------------------
+
+DDG::Goodie::UPS
+https://bttf.duckduckgo.com/?q=1Z2807700371226497
+Connection time: 491
+Errors: 
+Page load time: 859
+-----------------------------------------
+
+DDG::Goodie::ResistorColors
+https://bttf.duckduckgo.com/?q=4.7k+ohm
+Connection time: 29
+Errors: 
+Page load time: 509
+-----------------------------------------
+
+DDG::Goodie::Parcelforce
+https://bttf.duckduckgo.com/?q=royal+mail+RU401513974GB
+Connection time: 35
+Errors: 
+Page load time: 412
+-----------------------------------------
+
+DDG::Goodie::Jira
+https://bttf.duckduckgo.com/?q=SOLR-4530
+Connection time: 37
+Errors: 
+Page load time: 419
+-----------------------------------------
+
+DDG::Goodie::HKDK
+https://bttf.duckduckgo.com/?q=CU123456789DK
+Connection time: 28
+Errors: 
+Page load time: 399
+-----------------------------------------
+
+DDG::Goodie::HexToDec
+https://bttf.duckduckgo.com/?q=0x44696f21
+Connection time: 29
+Errors: 
+Page load time: 389
+-----------------------------------------
+
+DDG::Goodie::FedEx
+https://bttf.duckduckgo.com/?q=fedex+9241990100130206401644
+Connection time: 32
+Errors: 
+Page load time: 388
+-----------------------------------------
+
+DDG::Goodie::DHL
+https://bttf.duckduckgo.com/?q=DHL+123456789
+Connection time: 31
+Errors: 
+Page load time: 385
+-----------------------------------------
+
+DDG::Goodie::BinaryLogic
+https://bttf.duckduckgo.com/?q=4+xor+5
+Connection time: 105
+Errors: 
+Page load time: 448
+-----------------------------------------
+
+DDG::Spice::Xkcd::Display
+https://bttf.duckduckgo.com/?q=xkcd
+Connection time: 56
+Errors: 
+Page load time: 471
+-----------------------------------------
+
+DDG::Spice::Timer
+https://bttf.duckduckgo.com/?q=timer
+Connection time: 101
+Errors: 
+Page load time: 494
+-----------------------------------------
+
+DDG::Spice::Movie
+https://bttf.duckduckgo.com/?q=the+graduate+movie
+Connection time: 43
+Errors: 
+Page load time: 708
+-----------------------------------------
+
+DDG::Spice::InTheaters
+https://bttf.duckduckgo.com/?q=movies
+Connection time: 85
+Errors: 
+Page load time: 517
+-----------------------------------------
+
+DDG::Spice::ExpandURL
+https://bttf.duckduckgo.com/?q=http://bit.ly/a
+Connection time: 35
+Errors: 
+Page load time: 409
+-----------------------------------------
+
+DDG::Spice::Bitcoin
+https://bttf.duckduckgo.com/?q=bitcoin
+Connection time: 83
+Errors: 
+Page load time: 447
+-----------------------------------------
+
+DDG::Spice::AlternativeTo
+https://bttf.duckduckgo.com/?q=alternative+to+notepad
+Connection time: 32
+Errors: 
+Page load time: 411
+-----------------------------------------
+
+DDG::Spice::BitcoinTransaction
+https://bttf.duckduckgo.com/?q=0e40627940d835d7154dcce33d6755f7ec40c7cc9e88d86291a971567bcd7ea7
+Connection time: 34
+Errors: 
+Page load time: 599
+-----------------------------------------
+
+DDG::Spice::BitcoinAddress
+https://bttf.duckduckgo.com/?q=1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+Connection time: 31
+Errors: 
+Page load time: 597
+-----------------------------------------
+
+DDG::Goodie::VimCheatSheet
+https://bttf.duckduckgo.com/?q=vim+help
+Connection time: 50
+Errors: 
+Page load time: 443
+-----------------------------------------
+
+DDG::Goodie::UnixTime
+https://bttf.duckduckgo.com/?q=unix+time+0000000000000
+Connection time: 37
+Errors: 
+Page load time: 423
+-----------------------------------------
+
+DDG::Goodie::PrivateNetwork
+https://bttf.duckduckgo.com/?q=private+networks
+Connection time: 39
+Errors: 
+Page load time: 426
+-----------------------------------------
+
+DDG::Goodie::MakeMeASandwich
+https://bttf.duckduckgo.com/?q=make+me+a+sandwich
+Connection time: 38
+Errors: 
+Page load time: 410
+-----------------------------------------
+
+DDG::Goodie::Latex
+https://bttf.duckduckgo.com/?q=latex+summation
+Connection time: 29
+Errors: 
+Page load time: 391
+-----------------------------------------
+
+DDG::Goodie::Conversions
+https://bttf.duckduckgo.com/?q=convert+5+oz+to+grams
+Connection time: 38
+Errors: 
+Page load time: 414
+-----------------------------------------
+
+DDG::Goodie::Sha
+https://bttf.duckduckgo.com/?q=SHA+this
+Connection time: 33
+Errors: 
+Page load time: 409
+-----------------------------------------
+
+DDG::Goodie::LaserShip
+https://bttf.duckduckgo.com/?q=LL12345678
+Connection time: 36
+Errors: 
+Page load time: 435
+-----------------------------------------
+
+DDG::Longtail::WordPress
+https://bttf.duckduckgo.com/?q=wpdb+separate+database
+Connection time: 29
+Errors: ZCI not displayed!
+Page load time: 5216
+-----------------------------------------
+
+DDG::Longtail::Wikipedia
+https://bttf.duckduckgo.com/?q=snow+albedo
+Connection time: 29
+Errors: 
+Page load time: 600
+-----------------------------------------
+
+DDG::Longtail::UserExperience
+https://bttf.duckduckgo.com/?q=limit+undo+history
+Connection time: 28
+Errors: Uncaught TypeError: Cannot set property 'meta' of undefined
+https://bttf.duckduckgo.com/d1698.js:70
+Page load time: 595
+-----------------------------------------
+
+DDG::Longtail::Unix
+https://bttf.duckduckgo.com/?q=rc.local+equivalent+shutdown
+Connection time: 30
+Errors: 
+Page load time: 837
+-----------------------------------------
+
+DDG::Longtail::TheoreticalComputerScience
+https://bttf.duckduckgo.com/?q=generalizing+the+fft
+Connection time: 28
+Errors: 
+Page load time: 802
+-----------------------------------------
+
+DDG::Longtail::Tex
+https://bttf.duckduckgo.com/?q=matrix+latex+document
+Connection time: 29
+Errors: 
+Page load time: 601
+-----------------------------------------
+
+DDG::Longtail::SuperUser
+https://bttf.duckduckgo.com/?q=pdf+viewer+windows
+Connection time: 30
+Errors: 
+Page load time: 607
+-----------------------------------------
+
+DDG::Longtail::Skeptics
+https://bttf.duckduckgo.com/?q=mix+lysol+and+bleach
+Connection time: 105
+Errors: 
+Page load time: 666
+-----------------------------------------
+
+DDG::Longtail::ServerFault
+https://bttf.duckduckgo.com/?q=http+compression+windows+server+2003
+Connection time: 34
+Errors: Uncaught TypeError: Cannot set property 'meta' of undefined
+https://bttf.duckduckgo.com/d1698.js:70
+Page load time: 597
+-----------------------------------------
+
+DDG::Longtail::Security
+https://bttf.duckduckgo.com/?q=asp.net+security+check+list
+Connection time: 38
+Errors: 
+Page load time: 821
+-----------------------------------------
+
+DDG::Longtail::SeasonedAdvice
+https://bttf.duckduckgo.com/?q=water+to+rice+ratio
+Connection time: 30
+Errors: ZCI not displayed!
+Page load time: 5251
+-----------------------------------------
+
+DDG::Longtail::ScienceFiction
+https://bttf.duckduckgo.com/?q=asimov+robots
+Connection time: 28
+Errors: Uncaught TypeError: Cannot set property 'meta' of undefined
+https://bttf.duckduckgo.com/d1698.js:70
+Page load time: 849
+-----------------------------------------
+
+DDG::Longtail::ProWebmasters
+https://bttf.duckduckgo.com/?q=robots.txt+configuration
+Connection time: 28
+Errors: Uncaught TypeError: Cannot set property 'meta' of undefined
+https://bttf.duckduckgo.com/d1698.js:70,ZCI not displayed!
+Page load time: 5246
+-----------------------------------------
+
+DDG::Longtail::Physics
+https://bttf.duckduckgo.com/?q=photons+per+second+in+lumen
+Connection time: 43
+Errors: Uncaught TypeError: Cannot set property 'meta' of undefined
+https://bttf.duckduckgo.com/d1698.js:70
+Page load time: 618
+-----------------------------------------
+
+DDG::Longtail::Photography
+https://bttf.duckduckgo.com/?q=dust+inside+SLR
+Connection time: 27
+Errors: ZCI not displayed!
+Page load time: 5305
+-----------------------------------------
+
+DDG::Longtail::Mathematics
+https://bttf.duckduckgo.com/?q=points+vector+space+to+another
+Connection time: 33
+Errors: 
+Page load time: 816
+-----------------------------------------
+
+DDG::Longtail::Lyrics
+https://bttf.duckduckgo.com/?q=jesus+walks+lyrics
+Connection time: 186
+Errors: 
+Page load time: 1187
+-----------------------------------------
+
+DDG::Longtail::HomeImprovement
+https://bttf.duckduckgo.com/?q=fill+concrete+seawall
+Connection time: 101
+Errors: ZCI not displayed!
+Page load time: 5542
+-----------------------------------------
+
+DDG::Longtail::EnglishLanguage
+https://bttf.duckduckgo.com/?q=shortest+complete+sentence
+Connection time: 30
+Errors: Uncaught TypeError: Cannot set property 'meta' of undefined
+https://bttf.duckduckgo.com/d1698.js:70
+Page load time: 624
+-----------------------------------------
+
+DDG::Longtail::Drupal
+https://bttf.duckduckgo.com/?q=convert+wordpress+to+drupal+theme
+Connection time: 32
+Errors: 
+Page load time: 853
+-----------------------------------------
+
+DDG::Longtail::DatabaseAdministrators
+https://bttf.duckduckgo.com/?q=sqlplus+interface
+Connection time: 29
+Errors: ZCI not displayed!
+Page load time: 5506
+-----------------------------------------
+
+DDG::Longtail::CrossValidated
+https://bttf.duckduckgo.com/?q=spatial+models+car
+Connection time: 31
+Errors: Uncaught TypeError: Cannot set property 'meta' of undefined
+https://bttf.duckduckgo.com/d1698.js:70
+Page load time: 840
+-----------------------------------------
+
+DDG::Longtail::Bicycles
+https://bttf.duckduckgo.com/?q=iphone+app+bikers
+Connection time: 33
+Errors: 
+Page load time: 461
+-----------------------------------------
+
+DDG::Longtail::AskDifferent
+https://bttf.duckduckgo.com/?q=ipod+touch+gps
+Connection time: 28
+Errors: 
+Page load time: 1041
+-----------------------------------------
+
+DDG::Longtail::Arqade
+https://bttf.duckduckgo.com/?q=avoid+being+detected+left+4+dead
+Connection time: 33
+Errors: 
+Page load time: 676
+-----------------------------------------
+
+DDG::Longtail::AndroidEnthusiasts
+https://bttf.duckduckgo.com/?q=android+itunes
+Connection time: 28
+Errors: 
+Page load time: 800
+-----------------------------------------
+
+DDG::Fathead::UnixMan
+https://bttf.duckduckgo.com/?q=man+nmap
+Connection time: 41
+Errors: 
+Page load time: 846
+-----------------------------------------
+
+DDG::Fathead::TclRef
+https://bttf.duckduckgo.com/?q=tcl+tclsh
+Connection time: 29
+Errors: 
+Page load time: 602
+-----------------------------------------
+
+DDG::Fathead::Plone
+https://bttf.duckduckgo.com/?q=plone+collectivejqganalytics
+Connection time: 32
+Errors: 
+Page load time: 403
+-----------------------------------------
+
+DDG::Fathead::Perl6Doc
+https://bttf.duckduckgo.com/?q=perl+6+str
+Connection time: 34
+Errors: 
+Page load time: 604
+-----------------------------------------
+
+DDG::Fathead::NodeJS
+https://bttf.duckduckgo.com/?q=node+http
+Connection time: 34
+Errors: 
+Page load time: 612
+-----------------------------------------
+
+DDG::Fathead::FirefoxAboutConfig
+https://bttf.duckduckgo.com/?q=firefox+keyword.url
+Connection time: 30
+Errors: 
+Page load time: 617
+-----------------------------------------
+
+DDG::Spice::Quixey
+https://bttf.duckduckgo.com/?q=flight+tracking+app
+Connection time: 35
+Errors: 
+Page load time: 504
+-----------------------------------------
+
+DDG::Spice::CodeSearch
+https://bttf.duckduckgo.com/?q=javascript+console.log+example
+Connection time: 32
+Errors: Uncaught TypeError: Cannot read property 'results' of undefined
+https://bttf.duckduckgo.com/share/spice/code_search/1056/code_search.spice.js:1,ZCI not displayed!
+Page load time: 5233
+-----------------------------------------
+
+DDG::Spice::WGHA
+https://bttf.duckduckgo.com/?q=was+geht+in+frankfurt
+Connection time: 33
+Errors: 
+Page load time: 899
+-----------------------------------------
+
+DDG::Spice::Videos
+https://bttf.duckduckgo.com/?q=ted+education+video
+Connection time: 27
+Errors: 
+Page load time: 622
+-----------------------------------------
+
+DDG::Spice::TflStatus
+https://bttf.duckduckgo.com/?q=victoria+line+status
+Connection time: 31
+Errors: 
+Page load time: 618
+-----------------------------------------
+
+DDG::Spice::Snow
+https://bttf.duckduckgo.com/?q=is+it+snowing?
+Connection time: 31
+Errors: 
+Page load time: 630
+-----------------------------------------
+
+DDG::Spice::Shorten
+https://bttf.duckduckgo.com/?q=shorten+http://www.duckduckgo.com/about.html
+Connection time: 33
+Errors: 
+Page load time: 597
+-----------------------------------------
+
+DDG::Spice::Rhymes
+https://bttf.duckduckgo.com/?q=what+rhymes+with+duck
+Connection time: 31
+Errors: 
+Page load time: 641
+-----------------------------------------
+
+DDG::Spice::RedditSearch
+https://bttf.duckduckgo.com/?q=reddit+baking
+Connection time: 29
+Errors: 
+Page load time: 614
+-----------------------------------------
+
+DDG::Spice::Recipes
+https://bttf.duckduckgo.com/?q=tofu+ginger+recipe
+Connection time: 38
+Errors: 
+Page load time: 573
+-----------------------------------------
+
+DDG::Spice::PeopleInSpace
+https://bttf.duckduckgo.com/?q=people+in+space
+Connection time: 31
+Errors: 
+Page load time: 673
+-----------------------------------------
+
+DDG::Spice::NJT
+https://bttf.duckduckgo.com/?q=next+train+from+Metropark+to+New+York+Penn
+Connection time: 44
+Errors: 
+Page load time: 1036
+-----------------------------------------
+
+DDG::Spice::News
+https://bttf.duckduckgo.com/?q=duckduckgo+news
+Connection time: 33
+Errors: ZCI not displayed!
+Page load time: 5266
+-----------------------------------------
+
+DDG::Spice::Kwixer
+https://bttf.duckduckgo.com/?q=movies+with+Keira+Knightley
+Connection time: 35
+Errors: 
+Page load time: 467
+-----------------------------------------
+
+DDG::Spice::Haxelib
+https://bttf.duckduckgo.com/?q=haxelib+openfl
+Connection time: 29
+Errors: 
+Page load time: 606
+-----------------------------------------
+
+DDG::Spice::Guidebox::Getid
+https://bttf.duckduckgo.com/?q=guidebox+Castle
+Connection time: 29
+Errors: 
+Page load time: 1303
+-----------------------------------------
+
+DDG::Spice::GithubStatus
+https://bttf.duckduckgo.com/?q=github+status
+Connection time: 35
+Errors: 
+Page load time: 430
+-----------------------------------------
+
+DDG::Spice::Github
+https://bttf.duckduckgo.com/?q=github+zeroclickinfo
+Connection time: 32
+Errors: 
+Page load time: 1012
+-----------------------------------------
+
+DDG::Spice::Expatistan
+https://bttf.duckduckgo.com/?q=cost+of+living+in+Philadelphia
+Connection time: 34
+Errors: 
+Page load time: 615
+-----------------------------------------
+
+DDG::Spice::DNS
+https://bttf.duckduckgo.com/?q=MX+records+duckduckgo.com
+Connection time: 34
+Errors: 
+Page load time: 442
+-----------------------------------------
+
+DDG::Spice::Dictionary::Definition
+https://bttf.duckduckgo.com/?q=define+inundate
+Connection time: 30
+Errors: 
+Page load time: 645
+-----------------------------------------
+
+DDG::Spice::Bootic
+https://bttf.duckduckgo.com/?q=bootic+watches
+Connection time: 29
+Errors: 
+Page load time: 919
+-----------------------------------------
+
+DDG::Spice::Bible
+https://bttf.duckduckgo.com/?q=genesis+15:7
+Connection time: 31
+Errors: 
+Page load time: 615
+-----------------------------------------
+
+DDG::Spice::FlashVersion
+https://bttf.duckduckgo.com/?q=flash+version
+Connection time: 28
+Errors: 
+Page load time: 611
+-----------------------------------------
+
+DDG::Spice::RedditSubSearch
+https://bttf.duckduckgo.com/?q=subreddit+pizza
+Connection time: 30
+Errors: 
+Page load time: 658
+-----------------------------------------
+
+DDG::Goodie::QRCode
+https://bttf.duckduckgo.com/?q=qrcode+http://ddg.gg
+Connection time: 32
+Errors: 
+Page load time: 395
+-----------------------------------------
+
+DDG::Goodie::WorkdaysBetween
+https://bttf.duckduckgo.com/?q=workdays+between+01/31/2000+01/31/2001
+Connection time: 48
+Errors: 
+Page load time: 398
+-----------------------------------------
+
+DDG::Goodie::WeekdaysBetween
+https://bttf.duckduckgo.com/?q=weekdays+between+01/31/2000+01/31/2001
+Connection time: 35
+Errors: 
+Page load time: 381
+-----------------------------------------
+
+DDG::Goodie::ValarMorghulis
+https://bttf.duckduckgo.com/?q=valar+morghulis
+Connection time: 44
+Errors: 
+Page load time: 613
+-----------------------------------------
+
+DDG::Goodie::UnixPermissions
+https://bttf.duckduckgo.com/?q=chmod+755
+Connection time: 28
+Errors: 
+Page load time: 378
+-----------------------------------------
+
+DDG::Goodie::Unidecode
+https://bttf.duckduckgo.com/?q=unidecode+møæp
+Connection time: 36
+Errors: 
+Page load time: 411
+-----------------------------------------
+
+DDG::Goodie::UN
+https://bttf.duckduckgo.com/?q=UN+Number+0009
+Connection time: 30
+Errors: 
+Page load time: 384
+-----------------------------------------
+
+DDG::Goodie::Tips
+https://bttf.duckduckgo.com/?q=20%+tip+on+$21.63
+Connection time: 31
+Errors: 
+Page load time: 413
+-----------------------------------------
+
+DDG::Goodie::TimezoneConverter
+https://bttf.duckduckgo.com/?q=10:00AM+MST+to+PST
+Connection time: 31
+Errors: 
+Page load time: 386
+-----------------------------------------
+
+DDG::Goodie::Spell
+https://bttf.duckduckgo.com/?q=spell+hypocrit
+Connection time: 41
+Errors: 
+Page load time: 397
+-----------------------------------------
+
+DDG::Goodie::SigFigs
+https://bttf.duckduckgo.com/?q=sigfigs+01.1234000
+Connection time: 40
+Errors: 
+Page load time: 419
+-----------------------------------------
+
+DDG::Goodie::Rot13
+https://bttf.duckduckgo.com/?q=rot13+thirteen
+Connection time: 28
+Errors: 
+Page load time: 383
+-----------------------------------------
+
+DDG::Goodie::ReverseComplement
+https://bttf.duckduckgo.com/?q=revcomp+AAAACCCGGT
+Connection time: 29
+Errors: 
+Page load time: 404
+-----------------------------------------
+
+DDG::Goodie::Reverse
+https://bttf.duckduckgo.com/?q=reverse+esrever
+Connection time: 39
+Errors: 
+Page load time: 808
+-----------------------------------------
+
+DDG::Goodie::PublicDNS
+https://bttf.duckduckgo.com/?q=public+dns
+Connection time: 29
+Errors: 
+Page load time: 410
+-----------------------------------------
+
+DDG::Goodie::Poker
+https://bttf.duckduckgo.com/?q=poker+odds+three+of+a+kind
+Connection time: 34
+Errors: 
+Page load time: 386
+-----------------------------------------
+
+DDG::Goodie::Phonetic
+https://bttf.duckduckgo.com/?q=phonetic+what+duck
+Connection time: 40
+Errors: 
+Page load time: 394
+-----------------------------------------
+
+DDG::Goodie::PercentError
+https://bttf.duckduckgo.com/?q=percent-error+34.5+35
+Connection time: 31
+Errors: 
+Page load time: 379
+-----------------------------------------
+
+DDG::Goodie::Paper
+https://bttf.duckduckgo.com/?q=letter+paper+size
+Connection time: 40
+Errors: 
+Page load time: 602
+-----------------------------------------
+
+DDG::Goodie::Palindrome
+https://bttf.duckduckgo.com/?q=is+a+dank,+sad+nap.+eels+sleep+and+ask+nada.+a+palindrome?
+Connection time: 129
+Errors: 
+Page load time: 487
+-----------------------------------------
+
+DDG::Goodie::MD5
+https://bttf.duckduckgo.com/?q=md5+digest+this!
+Connection time: 28
+Errors: 
+Page load time: 386
+-----------------------------------------
+
+DDG::Goodie::Lowercase
+https://bttf.duckduckgo.com/?q=lowercase+GitHub
+Connection time: 33
+Errors: 
+Page load time: 442
+-----------------------------------------
+
+DDG::Goodie::ISO639
+https://bttf.duckduckgo.com/?q=iso639+english
+Connection time: 29
+Errors: 
+Page load time: 400
+-----------------------------------------
+
+DDG::Goodie::IDN
+https://bttf.duckduckgo.com/?q=idn+exämple.com
+Connection time: 55
+Errors: 
+Page load time: 429
+-----------------------------------------
+
+DDG::Goodie::HexToASCII
+https://bttf.duckduckgo.com/?q=ascii+0x74657374
+Connection time: 32
+Errors: 
+Page load time: 389
+-----------------------------------------
+
+DDG::Goodie::GoldenRatio
+https://bttf.duckduckgo.com/?q=golden+ratio+900:?
+Connection time: 38
+Errors: 
+Page load time: 439
+-----------------------------------------
+
+DDG::Goodie::GenerateMAC
+https://bttf.duckduckgo.com/?q=please+generate+mac+address
+Connection time: 40
+Errors: 
+Page load time: 405
+-----------------------------------------
+
+DDG::Goodie::FrequencySpectrum
+https://bttf.duckduckgo.com/?q=50+hz
+Connection time: 43
+Errors: 
+Page load time: 624
+-----------------------------------------
+
+DDG::Goodie::Frequency
+https://bttf.duckduckgo.com/?q=frequency+of+all+characters+in+testing
+Connection time: 87
+Errors: 
+Page load time: 442
+-----------------------------------------
+
+DDG::Goodie::Fortune
+https://bttf.duckduckgo.com/?q=unix+fortune+cookie
+Connection time: 31
+Errors: 
+Page load time: 388
+-----------------------------------------
+
+DDG::Goodie::FlipText
+https://bttf.duckduckgo.com/?q=flip+text+sentence
+Connection time: 33
+Errors: 
+Page load time: 384
+-----------------------------------------
+
+DDG::Goodie::Factors
+https://bttf.duckduckgo.com/?q=factors+of+30
+Connection time: 28
+Errors: 
+Page load time: 384
+-----------------------------------------
+
+DDG::Goodie::EmailValidator
+https://bttf.duckduckgo.com/?q=validate+foo@example.com
+Connection time: 34
+Errors: 
+Page load time: 380
+-----------------------------------------
+
+DDG::Goodie::DuckDuckGo
+https://bttf.duckduckgo.com/?q=help
+Connection time: 143
+Errors: 
+Page load time: 761
+-----------------------------------------
+
+DDG::Goodie::Dessert
+https://bttf.duckduckgo.com/?q=a+dessert+that+starts+with+the+letter+a
+Connection time: 45
+Errors: 
+Page load time: 454
+-----------------------------------------
+
+DDG::Goodie::DaysBetween
+https://bttf.duckduckgo.com/?q=days+between+01/31/2000+01/31/2001
+Connection time: 39
+Errors: 
+Page load time: 393
+-----------------------------------------
+
+DDG::Goodie::DateMath
+https://bttf.duckduckgo.com/?q=Jan+1+2012+plus+32+days
+Connection time: 40
+Errors: 
+Page load time: 394
+-----------------------------------------
+
+DDG::Goodie::CrontabCheatSheet
+https://bttf.duckduckgo.com/?q=crontab+help
+Connection time: 32
+Errors: 
+Page load time: 397
+-----------------------------------------
+
+DDG::Goodie::Coin
+https://bttf.duckduckgo.com/?q=flip+a+coin
+Connection time: 52
+Errors: 
+Page load time: 629
+-----------------------------------------
+
+DDG::Goodie::Chess960
+https://bttf.duckduckgo.com/?q=chess960+random
+Connection time: 30
+Errors: 
+Page load time: 386
+-----------------------------------------
+
+DDG::Goodie::Chars
+https://bttf.duckduckgo.com/?q=chars+in+"my+string"
+Connection time: 33
+Errors: 
+Page load time: 388
+-----------------------------------------
+
+DDG::Goodie::CalcRoots
+https://bttf.duckduckgo.com/?q=square+root+of+9
+Connection time: 52
+Errors: 
+Page load time: 441
+-----------------------------------------
+
+DDG::Goodie::Binary
+https://bttf.duckduckgo.com/?q=foo+in+binary
+Connection time: 31
+Errors: 
+Page load time: 379
+-----------------------------------------
+
+DDG::Goodie::BashPrimaryExpressions
+https://bttf.duckduckgo.com/?q=bash+[+-z+hello+]
+Connection time: 32
+Errors: 
+Page load time: 386
+-----------------------------------------
+
+DDG::Goodie::Base
+https://bttf.duckduckgo.com/?q=255+in+hex
+Connection time: 39
+Errors: 
+Page load time: 408
+-----------------------------------------
+
+DDG::Goodie::AspectRatio
+https://bttf.duckduckgo.com/?q=aspect+ratio+4:3+640:?
+Connection time: 31
+Errors: 
+Page load time: 377
+-----------------------------------------
+
+DDG::Goodie::Ascii
+https://bttf.duckduckgo.com/?q=0110100001100101011011000110110001101111+to+ascii
+Connection time: 36
+Errors: 
+Page load time: 391
+-----------------------------------------
+
+DDG::Goodie::VIN
+https://bttf.duckduckgo.com/?q=1g8gg35m1g7123101
+Connection time: 29
+Errors: 
+Page load time: 372
+-----------------------------------------
+
+DDG::Goodie::Unicode
+https://bttf.duckduckgo.com/?q=U+590c
+Connection time: 27
+Errors: ZCI not displayed!
+Page load time: 5441
+-----------------------------------------
+
+DDG::Goodie::ReverseResistorColours
+https://bttf.duckduckgo.com/?q=red+yellow+white+gold+resistor
+Connection time: 33
+Errors: 
+Page load time: 397
+-----------------------------------------
+
+DDG::Goodie::Regexp
+https://bttf.duckduckgo.com/?q=regexp+/(.*)/+ddg
+Connection time: 32
+Errors: 
+Page load time: 404
+-----------------------------------------
+
+DDG::Goodie::IPS
+https://bttf.duckduckgo.com/?q=EM999999999IN
+Connection time: 28
+Errors: 
+Page load time: 387
+-----------------------------------------
+
+DDG::Goodie::ColorCodes
+https://bttf.duckduckgo.com/?q=hex+color+code+for+cyan
+Connection time: 56
+Errors: 
+Page load time: 432
+-----------------------------------------
+
+DDG::Goodie::Calculator
+https://bttf.duckduckgo.com/?q=$3.43+$34.45
+Connection time: 32
+Errors: 
+Page load time: 587
+-----------------------------------------
+
+DDG::Spice::Stopwatch
+https://bttf.duckduckgo.com/?q=stopwatch
+Connection time: 90
+Errors: 
+Page load time: 498
+-----------------------------------------
+
+DDG::Spice::RandWord
+https://bttf.duckduckgo.com/?q=random+word
+Connection time: 32
+Errors: 
+Page load time: 426
+-----------------------------------------
+
+DDG::Spice::MetaCPAN
+https://bttf.duckduckgo.com/?q=metacpan+WWW::DuckDuckGo
+Connection time: 30
+Errors: 
+Page load time: 411
+-----------------------------------------
+
+DDG::Spice::IPLookup
+https://bttf.duckduckgo.com/?q=reverse+dns+8.8.8.8
+Connection time: 43
+Errors: 
+Page load time: 434
+-----------------------------------------
+
+DDG::Spice::Hayoo
+https://bttf.duckduckgo.com/?q=hayoo+Prelude.map
+Connection time: 30
+Errors: 
+Page load time: 1233
+-----------------------------------------
+
+DDG::Spice::Forecast
+https://bttf.duckduckgo.com/?q=weather
+Connection time: 117
+Errors: 
+Page load time: 700
+-----------------------------------------
+
+DDG::Spice::ChuckNorris
+https://bttf.duckduckgo.com/?q=chuck+norris+facts
+Connection time: 40
+Errors: 
+Page load time: 1250
+-----------------------------------------
+
+DDG::Spice::Automeme
+https://bttf.duckduckgo.com/?q=random+meme
+Connection time: 45
+Errors: 
+Page load time: 652
+-----------------------------------------
+
+DDG::Spice::Xkcd::Latest
+https://bttf.duckduckgo.com/?q=xkcd
+Connection time: 54
+Errors: 
+Page load time: 441
+-----------------------------------------
+
+DDG::Goodie::CalendarToday
+https://bttf.duckduckgo.com/?q=calendar
+Connection time: 235
+Errors: 
+Page load time: 843
+-----------------------------------------
+
+DDG::Spice::IsItUp
+https://bttf.duckduckgo.com/?q=is+duckduckgo.com+up
+Connection time: 30
+Errors: 
+Page load time: 387
+-----------------------------------------
+
+DDG::Spice::BitcoinBlock
+https://bttf.duckduckgo.com/?q=000000000000000000935d5053d80266447a6cc180e488bbb85675ca61cddfe7
+Connection time: 33
+Errors: 
+Page load time: 593
+-----------------------------------------
+
+DDG::Goodie::ZappBrannigan
+https://bttf.duckduckgo.com/?q=zapp+brannigan+quote
+Connection time: 32
+Errors: 
+Page load time: 389
+-----------------------------------------
+
+DDG::Goodie::RegexCheatSheet
+https://bttf.duckduckgo.com/?q=regex
+Connection time: 49
+Errors: 
+Page load time: 422
+-----------------------------------------
+
+DDG::Goodie::RandomNumber
+https://bttf.duckduckgo.com/?q=random+number+between+1+and+12
+Connection time: 42
+Errors: 
+Page load time: 410
+-----------------------------------------
+
+DDG::Goodie::Password
+https://bttf.duckduckgo.com/?q=random+password
+Connection time: 30
+Errors: 
+Page load time: 381
+-----------------------------------------
+
+DDG::Goodie::Passphrase
+https://bttf.duckduckgo.com/?q=random+passphrase
+Connection time: 31
+Errors: 
+Page load time: 410
+-----------------------------------------
+
+DDG::Goodie::HelpLine
+https://bttf.duckduckgo.com/?q=suicide+hotline
+Connection time: 31
+Errors: 
+Page load time: 372
+-----------------------------------------
+
+DDG::Goodie::ConvertLatLon
+https://bttf.duckduckgo.com/?q=71º+10'+3"+in+decimal
+Connection time: 30
+Errors: 
+Page load time: 412
+-----------------------------------------
+
+DDG::Goodie::SubnetCalc
+https://bttf.duckduckgo.com/?q=10.92.24.0/22
+Connection time: 30
+Errors: 
+Page load time: 376
+-----------------------------------------
+
