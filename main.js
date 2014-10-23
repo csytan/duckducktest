@@ -3,6 +3,7 @@ var https = require('https');
 var wd = require('wd');
 var asserters = wd.asserters;
 
+
 var browser = wd.promiseChainRemote('localhost', 9515);
 
 browser.on('status', function(info) {
@@ -38,8 +39,8 @@ function crawlPages(spices) {
     
     var url = 'https://bttf.duckduckgo.com/?q=' + 
         spice.example_query.replace(/ /g, '+');
-        
-    console.log('Visiting ' + spice.name);
+    
+    console.log(spice.perl_module);
     console.log(url);
     
     browser
@@ -47,8 +48,10 @@ function crawlPages(spices) {
         .execute(injectjs)
         .waitFor(asserters.jsCondition('window.DuckDuckTest && window.DuckDuckTest.loaded'), 60000)
         .execute('return DuckDuckTest.run()', function(err, result) {
-            console.log(result);
-            console.log('-----------------------------------------');
+            for (key in result) {
+                console.log(key + ': ' + result[key]);
+            }
+            console.log('-----------------------------------------\n');
             crawlPages(spices);
         });
 }
