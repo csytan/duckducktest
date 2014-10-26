@@ -1,6 +1,6 @@
 # DuckDuckTest
 
-DuckDuckGo Spice Instant Answer Tester.
+DuckDuckGo Spice Instant Answer Regression Tester
 
 ## Getting started
 
@@ -14,11 +14,17 @@ $ npm install wd
 $ node main.js
 ```
 
+## Imagemagick
+http://slides.com/justinklemm/phantomjs-casperjs-other-automated-testing-tools#/14
+```
+$ convert Airlines.png -crop 100%x50%+0+0 Airlines2.png
+$ compare -metric rmse form-1.png form-2.png output.png
+```
+
 ## Features
 
-- Detects JS errors
-- Checks for existance ZCI dom element
-- Check for JSON API changes
+- Checks for JS errors
+- Checks for visual regressions
 - Simple event testing
 
 

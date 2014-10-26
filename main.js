@@ -38,7 +38,7 @@ function crawlPages(spices) {
     if (!spice) return;
     
     var url = 'https://bttf.duckduckgo.com/?q=' + 
-        spice.example_query.replace(/ /g, '+');
+        encodeURIComponent(spice.example_query);
     
     console.log(spice.perl_module);
     console.log(url);
@@ -46,12 +46,16 @@ function crawlPages(spices) {
     browser
         .get(url)
         .execute(injectjs)
-        .waitFor(asserters.jsCondition('window.DuckDuckTest && window.DuckDuckTest.loaded'), 60000)
+        .waitFor(asserters.jsCondition('window.DuckDuckTest && window.DuckDuckTest.loaded'), 5000)
         .execute('return DuckDuckTest.run()', function(err, result) {
             for (key in result) {
                 console.log(key + ': ' + result[key]);
             }
             console.log('-----------------------------------------\n');
+        })
+        .waitFor(asserters.jsCondition('window.DuckDuckTest.complete', 5000))
+        .saveScreenshot(process.cwd() + '/images/' + spice.name + '.png')
+        .then(function() {
             crawlPages(spices);
         });
 }
