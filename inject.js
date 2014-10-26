@@ -34,8 +34,7 @@ DuckDuckTest.run = function() {
         this.errors.push('ZCI not displayed!');
     }
     
-
-    // Test images & prep for screen shot
+    // Prep for screen shot
     zci.find('img[class*=img]')
         .each(function() {
             // Test for broken images
@@ -47,6 +46,9 @@ DuckDuckTest.run = function() {
             // Hide non-UI images (for screen shot comparison)
             $(this).css('visibility', 'hidden');
         });
+    
+    // Remove content, only looking at ZCI
+    $('.content-wrap').remove();
 
     // Gather links to test later
     var links = [];
@@ -59,7 +61,6 @@ DuckDuckTest.run = function() {
     
     return {
         errors: this.errors,
-        zci_bottom: zci.length ? zci.offset().top + zci.height() + 10 : 0,
         links: links
     };
 };
