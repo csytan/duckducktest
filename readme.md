@@ -15,9 +15,8 @@ $ node main.js
 ```
 
 ## Imagemagick
-http://slides.com/justinklemm/phantomjs-casperjs-other-automated-testing-tools#/14
+http://www.imagemagick.org/Usage/compare/
 ```
-$ convert Airlines.png -crop 100%x50%+0+0 Airlines2.png
 $ compare -metric rmse form-1.png form-2.png output.png
 ```
 
