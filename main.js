@@ -55,24 +55,32 @@ function crawlPage(ias) {
         if (e.code != 'EEXIST') throw e;
     }
     
+    // Find the largest image id
+    var id = 1;
+    fs.readdirSync(iaPath)
+        .forEach(function(file) {
+            var imageId = /\d+\.png/.exec(file);
+            if (imageId) {
+                id = Math.max(parseInt(imageId) + 1, id);
+            }
+        });
+    
+    console.log(id);
     console.log(ia.perl_module);
     console.log(url);
     
     browser
         .get(url)
+        .waitFor(asserters.jsCondition('document.readyState === "complete"'), 5000)
         .execute(injectjs)
         .waitFor(asserters.jsCondition('window.DuckDuckTest.loaded'), 5000)
         .execute('return DuckDuckTest.run()', function(err, result) {
             testData = result;
         })
         .waitFor(asserters.jsCondition('window.DuckDuckTest.complete', 5000))
-        .saveScreenshot(path.join(iaPath, '1.png'))
+        .saveScreenshot(path.join(iaPath, id + '.png'))
         .then(function() {
-            for (key in testData) {
-                console.log(key + ': ' + testData[key]);
-            }
-            console.log('-----------------------------------------\n');
-            
+            generateData(iaPath, id);
             crawlPage(ias);
         });
 }
@@ -82,5 +90,16 @@ function checkLinks(links) {
     
 }
 
+
+function generateData(iaPath, id) {
+    var exec = require('child_process').exec;
+    if (id > 1) {
+        var cmd = 'compare -metric rmse ' + 
+            id + '.png ' + (id - 1) + '.png null: 2>&1';
+        exec(cmd, {cwd: iaPath}, function (error, stdout, stderr) {
+            console.log('img difference: ' + stdout);
+        });
+    }
+}
 
 

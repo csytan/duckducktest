@@ -10,7 +10,12 @@ https://code.google.com/p/selenium/wiki/ChromeDriver
 
 ```
 $ ./chromedriver --verbose --url-base=/wd/hub
+$ brew install imagemagick
 $ npm install wd
+```
+
+Then run:
+```
 $ node main.js
 ```
 
