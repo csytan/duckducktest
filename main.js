@@ -1,7 +1,8 @@
 var fs = require('fs');
-var https = require('https');
+var request = require('request');
 var path = require('path');
 var wd = require('wd');
+var Q = require('q');
 var asserters = wd.asserters;
 
 
@@ -21,13 +22,11 @@ var browser = wd.promiseChainRemote('localhost', 9515)
     .init({browserName:'chrome'});
 
 // Fetch Instant Answer data
-https.request('https://duck.co/ia/json', function(response) {
-    var body = '';
-    response.on('data', function(chunk) { body += chunk; });
-    response.on('end', function () {
+request('https://duck.co/ia/json', function(error, response, body) {
+    if (!error && response.statusCode == 200) {
         crawl(JSON.parse(body));
-    });
-}).end();
+    }
+});
 
 // Crawl IA pages
 function crawl(ias) {
@@ -65,7 +64,6 @@ function crawlPage(ias) {
             }
         });
     
-    console.log(id);
     console.log(ia.perl_module);
     console.log(url);
     
@@ -73,33 +71,81 @@ function crawlPage(ias) {
         .get(url)
         .waitFor(asserters.jsCondition('document.readyState === "complete"'), 5000)
         .execute(injectjs)
-        .waitFor(asserters.jsCondition('window.DuckDuckTest.loaded'), 5000)
+        .waitFor(asserters.jsCondition('window.DuckDuckTest && window.DuckDuckTest.loaded'), 5000)
         .execute('return DuckDuckTest.run()', function(err, result) {
             testData = result;
+            testData.errors.forEach(function(error) {
+                console.log('JS error:', error);
+            });
+            testData.badImages.forEach(function(url) {
+                console.log('Image not found:', url);
+            });
         })
         .waitFor(asserters.jsCondition('window.DuckDuckTest.complete', 5000))
         .saveScreenshot(path.join(iaPath, id + '.png'))
         .then(function() {
-            generateData(iaPath, id);
+            return checkLinks(testData.links);
+        })
+        .then(function(badLinks) {
+            for (var link in badLinks) {
+                console.log('Bad Link (' + badLinks[link] + '):', link);
+            }
+        })
+        .then(function() {
+            return compareImages(iaPath, id);
+        })
+        .then(function(imgChange) {
+            console.log('Screenshot change:', (imgChange * 100).toFixed(2), '%');
+            console.log('-----------------------------------------------------');
             crawlPage(ias);
-        });
+        })
+        .done();
 }
 
 
 function checkLinks(links) {
-    
+    var deferred = Q.defer();
+    var badLinks = {};
+    var done = 1;
+
+    if (links.length) {
+        links.forEach(function(link) {
+            request(link, function(error, response, body) {
+                done++;
+                if (error || response.statusCode != 200) {
+                    badLinks[link] = error || response.statusCode;
+                }
+                if (done >= links.length) {
+                    deferred.resolve(badLinks);
+                }
+            });
+        });
+    } else {
+        deferred.resolve(badLinks);
+    }
+    return deferred.promise;
 }
 
 
-function generateData(iaPath, id) {
+function compareImages(iaPath, id) {
+    // Compares the most recent image with the previous image
+    // Returns a float percentage: 0.80
+    var deferred = Q.defer();
     var exec = require('child_process').exec;
     if (id > 1) {
         var cmd = 'compare -metric rmse ' + 
             id + '.png ' + (id - 1) + '.png null: 2>&1';
+        // Run Imagemagick command
         exec(cmd, {cwd: iaPath}, function (error, stdout, stderr) {
-            console.log('img difference: ' + stdout);
+            // Extract percent 
+            // "2941.46 (0.0448838)" --> 0.0448838
+            var percent = parseFloat(/\((.+)\)/.exec(stdout)[1]);
+            deferred.resolve(percent);
         });
+    } else {
+        deferred.resolve(0);
     }
+    return deferred.promise;
 }
 
 

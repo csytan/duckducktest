@@ -4,25 +4,25 @@ DuckDuckGo Spice Instant Answer Regression Tester
 
 ## Getting started
 
-Install and run ChromeDriver:
-
+Install ChromeDriver:
 https://code.google.com/p/selenium/wiki/ChromeDriver
 
+Install Imagemagick:
+OSX: `$ brew install imagemagick`
+Ubuntu: `$ sudo apt-get install imagemagick`
+
+Install Node modules:
+TODO: add package.json
+```
+$ npm install wd
+$ npm install request
+$ npm install q
+```
+
+Run the tester:
 ```
 $ ./chromedriver --verbose --url-base=/wd/hub
-$ brew install imagemagick
-$ npm install wd
-```
-
-Then run:
-```
 $ node main.js
-```
-
-## Imagemagick
-http://www.imagemagick.org/Usage/compare/
-```
-$ compare -metric rmse form-1.png form-2.png output.png
 ```
 
 ## Features
@@ -56,6 +56,8 @@ $ compare -metric rmse form-1.png form-2.png output.png
 ## Useful Links
 - https://github.com/admc/wd
 - https://code.google.com/p/selenium/wiki/JsonWireProtocol
+- http://www.imagemagick.org/Usage/compare/
+
 
 
 

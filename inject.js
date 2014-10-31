@@ -3,6 +3,7 @@
 DuckDuckTest = (function() {
     var self = {
         errors: [],
+        badImages: [],
         complete: false,
         loaded: false
     };
@@ -16,7 +17,7 @@ DuckDuckTest = (function() {
     var start = new Date().getTime();
     var timer = setInterval(function() {
         var elapsed = (new Date().getTime()) - start;
-        if ($('.zci:visible').length || elapsed > 5000) {
+        if ($('.zci:visible').length || elapsed > 2000) {
             self.loaded = true;
             clearTimeout(timer);
         }
@@ -29,23 +30,30 @@ DuckDuckTest.run = function() {
     var self = this;
     
     // Test if ZCI is visible
+    // TODO: check if the right ZCI is displayed
     var zci = $('.zci:visible');
     if (zci.length == 0) {
         this.errors.push('ZCI not displayed!');
     }
     
     // Prep for screen shot
+    var badImageLinks = {};
     zci.find('img[class*=img]')
         .each(function() {
             // Test for broken images
             // http://stackoverflow.com/questions/1977871/check-if-an-image-is-loaded-no-errors-in-javascript
-            if (this.naturalWidth === 0 || this.naturalHeight === 0) {
-                self.errors.push('Broken Image: ' + this.src);
+            if (this.src && this.naturalWidth === 0 || this.naturalHeight === 0) {
+                badImageLinks[this.src] = 1;
             }
-            
             // Hide non-UI images (for screen shot comparison)
             $(this).css('visibility', 'hidden');
         });
+        
+    // Bad image links without dupes
+    var badImages = [];
+    for (var url in badImageLinks) {
+        badImages.push(url);
+    }
     
     // Remove content, only looking at ZCI
     $('.content-wrap').remove();
@@ -54,13 +62,16 @@ DuckDuckTest.run = function() {
     var links = [];
     zci.find('a')
         .each(function() {
-            links.push(this.href);
+            if (this.href) {
+                links.push(this.href);
+            }
         });
     
     self.complete = true;
     
     return {
         errors: this.errors,
+        badImages: badImages,
         links: links
     };
 };
