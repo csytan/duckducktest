@@ -8,10 +8,13 @@ Install ChromeDriver:
 https://code.google.com/p/selenium/wiki/ChromeDriver
 
 Install Imagemagick:
+
 OSX: `$ brew install imagemagick`
+
 Ubuntu: `$ sudo apt-get install imagemagick`
 
 Install Node modules:
+
 TODO: add package.json
 ```
 $ npm install wd
